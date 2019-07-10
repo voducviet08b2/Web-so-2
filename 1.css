@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header .navbar {
+    background-color: #021443;
+}
+
+.header .navbar-brand {
+    color: white;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 68px;
+}
+
+@keyframes effect {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.Container {
+    opacity: 0;
+}
+
+.up-effect {
+    animation: up 1s forwards;
+}
+
+@keyframes up {
+    from {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
